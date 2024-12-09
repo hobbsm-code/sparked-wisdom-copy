@@ -1,0 +1,153 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}*/
+
+/*background color for the body*/
+body {
+  background-color: #708B75; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin-top: 100px;
+  padding: 50px;
+   font-family: 'Budge', 'cursive';
+  /*display: flex;
+  justify-content: center; /* Horizontally center */
+ /* align-items: center;*/ /* Vertically center */
+}
+
+/*background color for the navbar*/
+.custom-navbar {
+  background-color: #444B6E; 
+  width: 100%; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000; 
+  box-shadow: 0 2px 4px rgba(32, 30, 30, 0.1);
+  padding: 10px;
+   font-family: 'Budge', 'cursive';
+}
+.navbar-brand {
+  font-family: 'Budge', 'cursive';
+  font-size: 2em;
+
+}
+
+/*color for the navbar links*/
+.custom-navbar a {
+  color: #F8F991;
+}
+
+.p-4 {
+  background-color: #444B6E; /* Dark blue */
+
+}
+.lanheader{
+  color: #F8F991;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.lanp{
+  color: #F8F991;
+  text-align: center;
+  font-size: 1.5em;;
+}
+
+.logo-image{
+  width: 10%;
+  height: 10%;
+}
+
+.form-label{
+  color: #F8F991;
+}
+
+h1{
+  color: #F8F991;
+}
+
+.btn-primary {
+  background-color: #F8F991;
+  color: #444B6E;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #F8F991; /* Slightly darker yellow */
+}
+
+.btn-primary:hover {
+  background-color: #F8F991; /* Slightly darker yellow */
+}
+
+.quoteLi {
+ 
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #F8F991;
+  width: 100%;
+  
+}
+
+.quoteCard {
+  background-color: #444B6E; /* Dark blue */
+  color: #F8F991;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  background-color: #708B75;
+}
